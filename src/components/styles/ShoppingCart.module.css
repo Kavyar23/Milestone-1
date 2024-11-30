@@ -1,0 +1,24 @@
+.cart {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cartItems {
+    margin: 20px 0;
+  }
+  
+  .cartItem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .checkout {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

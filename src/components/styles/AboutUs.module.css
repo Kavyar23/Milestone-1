@@ -1,0 +1,60 @@
+.aboutUs {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff5e1; /* Light background to match other pages */
+  color: #333; /* Neutral text color for readability */
+}
+
+h2 {
+  font-size: 2rem;
+  color: #ff5722; /* Match the main theme color */
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.story,
+.chefs {
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #ffe0b2; /* Light orange background for sections */
+  border-radius: 10px;
+  max-width: 800px; /* Center-align and limit width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Rounded edges for consistency */
+  margin: 10px 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #ff5722;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .aboutUs {
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}

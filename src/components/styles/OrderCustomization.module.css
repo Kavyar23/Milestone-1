@@ -1,0 +1,18 @@
+.customization {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .customization div {
+    margin-bottom: 15px;
+  }
+  
+  .addToCart {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
